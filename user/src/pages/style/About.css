@@ -1,0 +1,193 @@
+.about-container {
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.breadcrumb {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #666;
+}
+
+.breadcrumb span {
+  color: #999;
+}
+
+.breadcrumb span:last-child {
+  color: #333;
+}
+
+.our-story {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.our-story .text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.our-story h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.our-story p {
+  line-height: 1.8;
+  color: #555;
+  font-size: 18px;
+}
+
+.our-story .image img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.stat-item {
+  text-align: center;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  width: 22%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  background-color: #ff5a5f;
+  color: white;
+}
+
+.stat-item i {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.stat-item:hover i {
+  color: white;
+}
+
+.stat-item h3 {
+  font-size: 26px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.stat-item:hover h3 {
+  color: white;
+}
+
+.stat-item p {
+  color: #777;
+  font-size: 16px;
+}
+
+.stat-item:hover p {
+  color: #fff;
+}
+
+.highlight {
+
+  color: white;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.team-member {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+  border: 3px solid #eee;
+}
+
+.team-member h4 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.team-member p {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.social-icons i {
+  margin: 5px;
+  font-size: 18px;
+  color: #888;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2);
+}
+
+
+.social-icons i.fa-twitter:hover {
+  color: #000;
+}
+
+.social-icons i.fa-instagram:hover {
+  color: #e4405f;
+}
+
+.social-icons i.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+
+.h2,
+.h3,
+.h4 {
+  line-height: 1.2;
+}
+
+.p {
+  line-height: 1.6;
+}
+
+
+/* * {
+  transition: all 0.3s ease;
+} */

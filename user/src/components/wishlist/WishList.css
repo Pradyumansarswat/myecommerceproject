@@ -1,0 +1,41 @@
+.wishlist-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.wishlist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.wishlist-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.wishlist-item-details {
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.wishlist-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.wishlist-btn {
+  padding: 10px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.wishlist-btn:hover {
+  background-color: deepskyblue;
+}

@@ -1,0 +1,97 @@
+.banner-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.banner-slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+.banner-image {
+  width: 100%;
+ 
+  height: 600px;
+  object-fit: cover;
+ 
+}
+
+
+.banner-content {
+  position: absolute;
+  left: 10%;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.banner-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.shop-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.shop-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.prev-button,
+.next-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: red;
+}

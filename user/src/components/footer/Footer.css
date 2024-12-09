@@ -1,0 +1,134 @@
+.footer-container {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column p,
+.footer-column li {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 8px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-column ul li:hover {
+  color: #fff;
+}
+
+
+.subscribe-form {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+}
+
+.subscribe-input {
+  width: 100%;
+  padding: 10px;
+  padding-right: 40px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.subscribe-button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.app-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.app-store-icon {
+  width: 100px;
+}
+
+
+
+
+.social-media {
+  display: flex;
+  gap: 15px; 
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-media a {
+  color: #333; 
+  font-size: 1.5em; 
+  transition: color 0.3s ease; 
+}
+
+.social-media a:hover {
+  color: #3b0764; 
+}
+
+
+.social-media a:hover:nth-child(1) {
+  color: #4267B2; 
+}
+
+.social-media a:hover:nth-child(2) {
+  color: #dce7f2; 
+}
+
+.social-media a:hover:nth-child(3) {
+  color: #E4405F; 
+}
+
+.social-media a:hover:nth-child(4) {
+  color: #0077B5; 
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  font-size: 24px;
+  color: #bbb;
+}

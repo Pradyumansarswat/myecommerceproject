@@ -1,0 +1,12 @@
+# Node.js modules
+node_modules
+.env
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Vercel/Render build files
+.vercel
+dist

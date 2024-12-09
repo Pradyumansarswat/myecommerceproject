@@ -1,0 +1,20 @@
+const express = require("express");
+const router = express.Router();
+const orderController = require("../controllers/OrderController");
+
+router.post("/create", orderController.createOrder);
+router.get("/", orderController.getAllOrders);
+// router.put("/:orderId", orderController.updateOrder);
+router.get("/user/:userId", orderController.getOrderByUserId);
+router.delete("/:orderId", orderController.cancelOrder);
+router.get("/seller/:sellerId", orderController.getOrderBySellerId);
+router.patch("/status/:orderId", orderController.changeOrderStatus);
+router.get("/status/orders/:status", orderController.getOrderByStatus);
+router.get("/ordersdetails/date/:startDate/:endDate", orderController.getOrderByDate);
+router.get("/ordersdetails/:orderId", orderController.getOrderById);
+// router.get("/ordersdetails/:orderId", orderController.getOrderById);
+router.get("/user/:userId/status/:status", orderController.getOrdersByUserIdAndStatus);
+router.get("/seller/:sellerId/status/:status", orderController.getOrdersBySellerIdAndStatus);
+router.get("/user/:userId/date/:startDate/:endDate", orderController.getOrdersByUserIdAndDate);
+router.get("/seller/:sellerId/date/:startDate/:endDate", orderController.getOrdersBySellerIdAndDate);
+module.exports = router;

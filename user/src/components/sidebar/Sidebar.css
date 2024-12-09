@@ -1,0 +1,34 @@
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 250px;
+  height: 100%;
+  font-weight: 600;
+  background-color:transparent;
+  color:white;
+  text-decoration: none;
+  padding: 60px 20px;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+.sidebar-menu li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

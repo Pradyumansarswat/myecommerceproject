@@ -1,0 +1,202 @@
+.signup-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+.signup-image-section {
+    flex: 1;
+    background-color: #eaf6fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup-image {
+    max-width: 80%;
+    max-height: 80%;
+
+}
+
+
+.signup-form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.signup-form {
+    width: 80%;
+    max-width: 400px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 10px 0; 
+    margin-bottom: 20px; 
+    border-top: none !important;    
+    border-left: none !important;    
+    border-right: none !important;    
+    border-bottom: 3px solid #000000; 
+    font-size: 16px;
+    background-color: transparent; 
+
+}
+.input-field:focus {
+    outline: none; 
+    border-bottom: 2px solid #030303; 
+
+  }
+  
+  .input-field::placeholder {
+    color: #000000; 
+    font-size: 14px;
+  }
+
+
+.create-account-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-account-btn:hover {
+    background-color: #e24343;
+}
+
+
+.google-signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.login-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-text a {
+    color: #ff4c4c;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+
+
+.otp-modal {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  .otp-overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  .close-modal-btn {
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%; 
+  }
+  
+
+  .close-modal-btn:hover {
+    background-color: #c82333; 
+  }
+  
+
+  .otp-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .otp-popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-modal-btn {
+    margin-top: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

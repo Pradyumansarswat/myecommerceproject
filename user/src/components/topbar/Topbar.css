@@ -1,0 +1,44 @@
+.topbar {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  top: 0;
+}
+
+.topbar-promo {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  animation: fadeInOut 5s infinite; 
+}
+
+.topbar-link {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.topbar-link:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0; 
+  }
+  10% {
+    opacity: 1; 
+  }
+  90% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0;
+  }
+}
